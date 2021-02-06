@@ -1,0 +1,313 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".ExpandActivity">
+
+
+    <com.google.android.material.appbar.AppBarLayout
+        android:id="@+id/appBarLayout"
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:theme="@style/Theme.AppCompat"
+        tools:ignore="MissingConstraints">
+
+        <androidx.appcompat.widget.Toolbar
+            android:id="@+id/toolbar"
+            android:layout_width="match_parent"
+            android:layout_height="?attr/actionBarSize"
+            android:background="?attr/colorPrimary"
+            app:popupTheme="@style/Theme.MusicWiki" />
+
+    </com.google.android.material.appbar.AppBarLayout>
+
+
+    <LinearLayout
+        android:layout_width="408dp"
+        android:layout_height="483dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/appBarLayout"
+        tools:ignore="MissingConstraints"
+        tools:layout_editor_absoluteX="3dp">
+
+        <RelativeLayout
+            android:layout_width="match_parent"
+            android:layout_height="501dp">
+
+
+            <Button
+                android:id="@+id/rock2"
+                android:layout_width="120dp"
+                android:layout_height="44dp"
+                android:layout_alignParentStart="true"
+                android:layout_alignParentLeft="true"
+                android:layout_alignParentTop="true"
+                android:layout_marginTop="20dp"
+                android:background="@drawable/rock"
+                android:scaleType="centerCrop"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <Button
+                android:id="@+id/rock6"
+                android:layout_width="120dp"
+                android:layout_height="44dp"
+                android:layout_below="@+id/rock2"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rock"
+                android:scaleType="centerCrop"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <Button
+                android:id="@+id/rock10"
+                android:layout_width="120dp"
+                android:layout_height="44dp"
+                android:layout_below="@+id/rock6"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rock"
+                android:scaleType="centerCrop"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <Button
+                android:id="@+id/rock15"
+                android:layout_width="120dp"
+                android:layout_height="44dp"
+                android:layout_below="@+id/rock8"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/rock20"
+                android:layout_toRightOf="@+id/rock20"
+                android:background="@drawable/rock"
+                android:scaleType="centerCrop"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <Button
+                android:id="@+id/rock20"
+                android:layout_width="120dp"
+                android:layout_height="44dp"
+                android:layout_below="@+id/rock7"
+                android:layout_marginStart="7dp"
+                android:layout_marginLeft="7dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/rock10"
+                android:layout_toRightOf="@+id/rock10"
+                android:background="@drawable/rock"
+                android:scaleType="centerCrop"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <Button
+                android:id="@+id/rock16"
+                android:layout_width="120dp"
+                android:layout_height="44dp"
+                android:layout_below="@+id/rock20"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/rock11"
+                android:layout_toRightOf="@+id/rock11"
+                android:background="@drawable/rock"
+                android:scaleType="centerCrop"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <Button
+                android:id="@+id/rock21"
+                android:layout_width="120dp"
+                android:layout_height="44dp"
+                android:layout_below="@+id/rock15"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/rock16"
+                android:layout_toRightOf="@+id/rock16"
+                android:background="@drawable/rock"
+                android:scaleType="centerCrop"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <Button
+                android:id="@+id/rock17"
+                android:layout_width="120dp"
+                android:layout_height="44dp"
+                android:layout_below="@+id/rock16"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/rock12"
+                android:layout_toRightOf="@+id/rock12"
+                android:background="@drawable/rock"
+                android:scaleType="centerCrop"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <Button
+                android:id="@+id/rock22"
+                android:layout_width="120dp"
+                android:layout_height="44dp"
+                android:layout_below="@+id/rock21"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/rock17"
+                android:layout_toRightOf="@+id/rock17"
+                android:background="@drawable/rock"
+                android:scaleType="centerCrop"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <Button
+                android:id="@+id/rock18"
+                android:layout_width="120dp"
+                android:layout_height="44dp"
+                android:layout_below="@+id/rock22"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/rock23"
+                android:layout_toRightOf="@+id/rock23"
+                android:background="@drawable/rock"
+                android:scaleType="centerCrop"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <Button
+                android:id="@+id/rock23"
+                android:layout_width="120dp"
+                android:layout_height="44dp"
+                android:layout_below="@+id/rock17"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/rock13"
+                android:layout_toRightOf="@+id/rock13"
+                android:background="@drawable/rock"
+                android:scaleType="centerCrop"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <Button
+                android:id="@+id/rock19"
+                android:layout_width="120dp"
+                android:layout_height="44dp"
+                android:layout_below="@+id/rock23"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/rock14"
+                android:layout_toRightOf="@+id/rock14"
+                android:background="@drawable/rock"
+                android:scaleType="centerCrop"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <Button
+                android:id="@+id/rock24"
+                android:layout_width="120dp"
+                android:layout_height="44dp"
+                android:layout_below="@+id/rock18"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/rock19"
+                android:layout_toRightOf="@+id/rock19"
+                android:background="@drawable/rock"
+                android:scaleType="centerCrop"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <Button
+                android:id="@+id/rock11"
+                android:layout_width="120dp"
+                android:layout_height="44dp"
+                android:layout_below="@+id/rock10"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rock"
+                android:scaleType="centerCrop"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <Button
+                android:id="@+id/rock12"
+                android:layout_width="120dp"
+                android:layout_height="44dp"
+                android:layout_below="@+id/rock11"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rock"
+                android:scaleType="centerCrop"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <Button
+                android:id="@+id/rock13"
+                android:layout_width="120dp"
+                android:layout_height="44dp"
+                android:layout_below="@+id/rock12"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rock"
+                android:scaleType="centerCrop"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <Button
+                android:id="@+id/rock14"
+                android:layout_width="120dp"
+                android:layout_height="44dp"
+                android:layout_below="@+id/rock13"
+                android:layout_marginTop="10dp"
+                android:background="@drawable/rock"
+                android:scaleType="centerCrop"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <Button
+                android:id="@+id/rock7"
+                android:layout_width="120dp"
+                android:layout_height="44dp"
+                android:layout_below="@+id/rock4"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/rock6"
+                android:layout_toRightOf="@+id/rock6"
+                android:background="@drawable/rock"
+                android:scaleType="centerCrop"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <Button
+                android:id="@+id/rock8"
+                android:layout_width="120dp"
+                android:layout_height="44dp"
+                android:layout_below="@+id/rock5"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="10dp"
+                android:layout_toEndOf="@+id/rock7"
+                android:layout_toRightOf="@+id/rock7"
+                android:background="@drawable/rock"
+                android:scaleType="centerCrop"
+                tools:layout_editor_absoluteX="0dp" />
+
+            <Button
+                android:id="@+id/rock4"
+                android:layout_width="120dp"
+                android:layout_height="44dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="5dp"
+                android:layout_marginLeft="5dp"
+                android:layout_marginTop="20dp"
+                android:layout_marginEnd="16dp"
+                android:layout_marginRight="16dp"
+                android:layout_toEndOf="@+id/rock2"
+                android:layout_toRightOf="@+id/rock2"
+                android:background="@drawable/rock"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+            <Button
+                android:id="@+id/rock5"
+                android:layout_width="120dp"
+                android:layout_height="44dp"
+                android:layout_alignParentTop="true"
+                android:layout_marginStart="129dp"
+                android:layout_marginLeft="129dp"
+                android:layout_marginTop="20dp"
+                android:layout_toEndOf="@+id/rock2"
+                android:layout_toRightOf="@+id/rock2"
+                android:background="@drawable/rock"
+                app:layout_constraintEnd_toEndOf="parent" />
+
+
+        </RelativeLayout>
+    </LinearLayout>
+
+
+</androidx.constraintlayout.widget.ConstraintLayout>

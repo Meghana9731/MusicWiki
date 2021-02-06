@@ -1,0 +1,64 @@
+<?xml version="1.0" encoding="utf-8"?>
+<androidx.constraintlayout.widget.ConstraintLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".Albumdetails"
+    app:layout_behavior="@string/appbar_scrolling_view_behavior">
+
+    <ImageView
+        android:id="@+id/imageView5"
+        android:layout_width="411dp"
+        android:layout_height="308dp"
+        android:background="@drawable/albback"
+        tools:layout_editor_absoluteX="0dp" />
+
+    <LinearLayout
+        android:id="@+id/linearLayout"
+        android:layout_width="407dp"
+        android:layout_height="97dp"
+        android:orientation="horizontal"
+        app:layout_constraintTop_toBottomOf="@+id/imageView5"
+        tools:layout_editor_absoluteX="2dp">
+
+        <Button
+            android:id="@+id/b"
+            android:layout_width="147dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rock" />
+
+        <Button
+            android:id="@+id/b1"
+            android:layout_width="147dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rock" />
+
+        <Button
+            android:id="@+id/b3"
+            android:layout_width="147dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rock" />
+
+        <Button
+            android:id="@+id/b4"
+            android:layout_width="147dp"
+            android:layout_height="46dp"
+            android:layout_marginTop="20dp"
+            android:background="@drawable/rock" />
+
+
+    </LinearLayout>
+
+    <TextView
+        android:layout_width="415dp"
+        android:layout_height="334dp"
+        android:text="Rock music is a board genre of popular music that originated as rock and roll in the United States in the late 1940s and early 1950s, developing into a range of different styles in the mid-1960s and later, particularly in the United States and the United Kingdom. It has its roots in 1940s and1950s rock and roll, a style that drew heavily from the genres of blues, rhythm and blues, and from country music."
+        android:textSize="15sp"
+        app:layout_constraintTop_toBottomOf="@+id/linearLayout"
+        tools:layout_editor_absoluteX="-2dp" />
+
+</androidx.constraintlayout.widget.ConstraintLayout>

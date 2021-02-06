@@ -1,0 +1,48 @@
+<?xml version="1.0" encoding="utf-8"?>
+<RelativeLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:id="@+id/splash_background"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="@color/white"
+    tools:context=".SplashActivity">
+
+    <ImageView
+        android:id="@+id/splash_page_icon_view"
+        android:layout_width="120dp"
+        android:layout_height="150dp"
+        android:layout_centerInParent="true"
+        android:scaleType="fitCenter"
+        android:src="@drawable/nav" />
+
+
+    <LinearLayout
+        android:id="@+id/linear_layout_text"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/splash_page_icon_view"
+        android:layout_centerInParent="true"
+        android:visibility="invisible">
+
+        <TextView
+            android:id="@+id/splash_try_again"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:autoLink="all"
+            android:paddingTop="10dp"
+            android:text="MusicWiki"
+            android:textAppearance="@style/TextAppearance.AppCompat.Small"
+            android:textColor="#023227"
+            android:textSize="20sp"
+            android:textStyle="italic"
+            android:visibility="visible" />
+    </LinearLayout>
+
+    <include
+        layout="@layout/loading_view"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_below="@id/splash_page_icon_view"
+        android:layout_centerInParent="true" />
+
+</RelativeLayout>
